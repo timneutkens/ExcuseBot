@@ -1,0 +1,20 @@
+{
+  "name": "excusebot",
+  "version": "1.0.0",
+  "description": "Ask for excuses in slack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Tim Neutkens",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^3.4.0",
+    "excuses": "^1.0.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/timneutkens/ExcuseBot.git"
+  }
+}
